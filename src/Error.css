@@ -1,0 +1,37 @@
+/* Error.css */
+.Error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Add your preferred background color */
+    color: #333; /* Add your preferred text color */
+  }
+  
+  .error-heading {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .error-text {
+    font-size: 1.2em;
+    color: #fff; /* Add your preferred text color for the link */
+    background-color: #007bff; /* Add your preferred background color for the link */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .error-text:hover {
+    background-color: #0056b3; /* Add a slightly different color on hover */
+  }
+  
